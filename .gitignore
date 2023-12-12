@@ -11,12 +11,12 @@
 migrate_working_dir/
 
 # gradle files
-.gradle
-build/
-/*/build/
-!**/build/libs/*.jar 
-!**/build/libs/*.aar
-
+gradle-wrapper.jar
+/.gradle
+/captures/
+/gradlew
+/gradlew.bat
+/local.properties
 
 
 # IntelliJ related
