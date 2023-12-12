@@ -10,6 +10,14 @@
 .svn/
 migrate_working_dir/
 
+# gradle files
+.gradle
+build/
+/*/build/
+!**/build/libs/*.jar 
+!**/build/libs/*.aar
+
+
 
 # IntelliJ related
 *.iml
